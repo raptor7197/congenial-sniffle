@@ -5,7 +5,8 @@ import {
   Poppins, 
   Roboto_Slab, 
   Angkor, 
-  Inter 
+  Inter,
+  Sarpanch
 } from "next/font/google";
 import "./globals.css";
 
@@ -45,6 +46,12 @@ const inter = Inter({
   weight: ["400"],
 });
 
+const sarpanch = Sarpanch({
+  variable: "--font-sarpanch",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
 export const metadata: Metadata = {
   title: "ITC India 2026 - IEEE International Test Conference",
   description: "10th IEEE International Test Conference INDIA - An initiative towards India's semiconductor ecosystem",
@@ -58,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} ${urbanist.variable} ${poppins.variable} ${robotoSlab.variable} ${angkor.variable} ${inter.variable} antialiased`}
+        className={`${spaceGrotesk.variable} ${urbanist.variable} ${poppins.variable} ${robotoSlab.variable} ${angkor.variable} ${inter.variable} ${sarpanch.variable} antialiased`}
       >
         {children}
       </body>
