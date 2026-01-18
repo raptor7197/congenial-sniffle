@@ -28,7 +28,7 @@ export default function Committee() {
 
                 {/* Title */}
                 <h1 className="text-4xl md:text-[64px] font-bold text-center mb-16 tracking-tight">
-                    MEET THE COMMITEE
+                    MEET THE COMMITTEE
                 </h1>
 
                 {/* Section 1: General Chairs */}
