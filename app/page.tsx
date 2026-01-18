@@ -1,11 +1,11 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import AboutUs from "@/components/AboutUs";
-import Timeline from "@/components/Timeline";
-import Testimonials from "@/components/Testimonials";
-import FAQ from "@/components/FAQ";
-import Photos from "@/components/Photos";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/ui/Navbar";
+import Hero from "@/components/ui/Hero";
+import AboutUs from "@/components/ui/AboutUs";
+import Timeline from "@/components/ui/Timeline";
+import Testimonials from "@/components/ui/Testimonials";
+import FAQ from "@/components/ui/FAQ";
+import Photos from "@/components/ui/Photos";
+import Footer from "@/components/ui/Footer";
 import Image from "next/image";
 
 export default function Home() {
