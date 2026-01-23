@@ -9,7 +9,11 @@ const navLinks = [
   { name: "PROGRAM", href: "/program" },
   { name: "COMMITEE", href: "/commitee" },
   { name: "AUTHORS", href: "/authors" },
+  { name: "CFP", href: "/cfp" },
+  { name: "CFT", href: "/cft" },
+  { name: "ART", href: "/art" },
   { name: "HACKATHON", href: "/hackathon" },
+  { name: "FELLOWSHIP", href: "/fellowship" },
   { name: "SPONSORS", href: "/sponsors" },
 ];
 
