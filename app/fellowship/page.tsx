@@ -173,7 +173,7 @@ export default function CallForTutorials() {
                             <div className="space-y-2">
                                 <p>
                                     <span className="block text-xs uppercase text-gray-400">Website:</span>
-                                    <a href="http://www.itctestweekindia.org" className="text-blue-300 hover:underline">www.itctestweekindia.org</a>
+                                    <a href="http://itctestweekindia.org" className="text-blue-300 hover:underline">http://itctestweekindia.org</a>
                                 </p>
                                 <p>
                                     <span className="block text-xs uppercase text-gray-400">Program Chair Email:</span>
