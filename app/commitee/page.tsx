@@ -1,4 +1,3 @@
-import Navbar from "@/components/ui/Navbar";
 import Image from "next/image";
 import {
   Member,
@@ -87,41 +86,7 @@ const MemberCard = ({ member }: { member: Member }) => {
 
 export default function Committee() {
   return (
-    <main className="min-h-screen bg-[#03396c] overflow-hidden relative text-white font-poppins selection:bg-white/20">
-      {/* Global Background Elements */}
-      <div className="absolute inset-0 pointer-events-none z-0">
-        {/* Background Pattern */}
-        <div
-          className="absolute inset-0 opacity-10 bg-repeat"
-          style={{
-            backgroundImage: `url('/images/homepage-bg.png')`,
-            backgroundSize: "80px 80px",
-          }}
-        />
-
-        {/* Vertical Grid Lines */}
-        <div className="absolute top-[109px] left-[5%] h-full w-[1px] hidden xl:block">
-          <Image
-            src="/images/line5.svg"
-            alt="Grid Line"
-            width={1}
-            height={5000}
-            className="h-full object-cover"
-          />
-        </div>
-        <div className="absolute top-[109px] right-[5%] h-full w-[1px] hidden xl:block">
-          <Image
-            src="/images/line4.svg"
-            alt="Grid Line"
-            width={1}
-            height={5000}
-            className="h-full object-cover"
-          />
-        </div>
-      </div>
-
-      <Navbar />
-
+    <main className="min-h-screen overflow-hidden relative text-white font-poppins selection:bg-white/20">
       <div className="relative z-10 pt-[150px] pb-20 px-4 md:px-10 max-w-[1360px] mx-auto flex flex-col items-center">
         {/* Title */}
         <h1 className="text-4xl md:text-[64px] font-bold text-center mb-16 tracking-tight">
