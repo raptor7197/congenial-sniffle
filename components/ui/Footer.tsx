@@ -37,10 +37,8 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Footer Links Grid */}
       <div className="flex flex-col sm:flex-row sm:flex-wrap xl:flex-nowrap justify-between gap-6 sm:gap-8 xl:gap-10 border-t border-white/20 pt-6 sm:pt-8 md:pt-10 relative mt-4 sm:mt-0 pl-4 sm:pl-0">
 
-        {/* Email */}
         <div className="w-full sm:w-[45%] xl:w-auto mb-4 sm:mb-0">
           <h4 className="font-inter text-[14px] sm:text-[18px] xl:text-[20px] mb-2 sm:mb-4">Email ID</h4>
           <a href="mailto:info@itctestweekindia.org" className="opacity-80 hover:opacity-100 text-[12px] sm:text-[16px] md:text-[18px] xl:text-[20px] break-all">info@itctestweekindia.org</a>
@@ -50,7 +48,13 @@ export default function Footer() {
         <div className="font-poppins text-[14px] sm:text-[18px] md:text-[20px] xl:text-[22px] w-full sm:w-[45%] xl:w-auto mb-4 sm:mb-0">
           <h4 className="mb-2 sm:mb-4">Submissions</h4>
           <ul className="space-y-2">
-            <li><Link href="https://itctestweekindia.org/CFP" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">Call for Papers</Link></li>
+            <li><Link href="/cfp" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">Call for Papers</Link></li>
+            <li><Link href="/cft" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">Call for Tutorials</Link></li>
+            <li><Link href="/art" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">Academia Research Track</Link></li>
+            {/*<li><Link href="/CFP" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">Call for Papers</Link></li>*/}
+
+
+
           </ul>
         </div>
 
