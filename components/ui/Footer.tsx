@@ -22,8 +22,6 @@ export default function Footer() {
         </div>
 
         <div className="relative w-full sm:w-auto">
-          {/* Decorator pill? */}
-          {/* Actual input field logic inspired by design */}
           <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 w-full sm:w-auto">
             <input
               type="email"
@@ -64,7 +62,7 @@ export default function Footer() {
           <ul className="space-y-2">
             <li><Link href="https://itctestweekindia.org/" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">About Us</Link></li>
             <li><Link href="https://itctestweekindia.org/" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">Privacy Policy</Link></li>
-            <li><Link href="https://itctestweekindia.org/" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">Refund Policy</Link></li>
+            {/*<li><Link href="https://itctestweekindia.org/" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">Refund Policy</Link></li>*/}
             <li><Link href="https://itctestweekindia.org/" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">Terms & Conditions</Link></li>
             <li><Link href="https://itctestweekindia.org/contactus" className="underline decoration-solid text-[12px] sm:text-[16px] md:text-[18px] xl:text-[22px]">Contact Us</Link></li>
           </ul>

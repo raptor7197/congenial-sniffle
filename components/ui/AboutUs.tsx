@@ -4,7 +4,6 @@ import CountdownTimer from "./CountdownTimer";
 export default function AboutUs() {
   return (
     <section className="about-us-section relative w-full mt-0 sm:mt-0 pt-0 sm:pt-20 md:pt-24 lg:pt-30 pb-8 sm:pb-0 px-[5%] sm:px-4 md:px-6 lg:px-8 xl:px-[2.25%] text-white overflow-x-hidden">
-
       {/* Zig-zag Line at the top - matching side lines positioning */}
       <div className="absolute top-0 left-[5%] sm:left-[4%] md:left-[3%] lg:left-[2.5%] xl:left-[2.25%] right-[5%] sm:right-[4%] md:right-[3%] lg:right-[2.5%] xl:right-[2.25%] h-[60px] sm:h-[80px] md:h-[100px] lg:h-[110px] xl:h-[123px] pointer-events-none -z-10 opacity-60 sm:opacity-70 md:opacity-80">
         <Image
@@ -15,8 +14,7 @@ export default function AboutUs() {
         />
       </div>
 
-      {/* Countdown Timer - desktop: fit into zig-zag */}
-      <div className="absolute top-[-15%] left-[32%] hidden xl:block z-20">
+      <div className="absolute top-[35px] sm:top-[50px] md:top-[60px] lg:top-[70px] xl:top-[80px] right-[15%] sm:right-[15%] md:right-[20%] lg:right-[35%] xl:right-[30%] z-20">
         <CountdownTimer />
       </div>
 
@@ -33,9 +31,6 @@ export default function AboutUs() {
           <h2 className="font-angkor text-[40px] md:text-[50px] lg:text-[60px] text-white text-left flex-shrink-0">
             ABOUT US
           </h2>
-          <div className="flex-shrink-0 max-w-[180px] md:max-w-[220px]">
-            <CountdownTimer />
-          </div>
         </div>
       </div>
 
@@ -52,16 +47,23 @@ export default function AboutUs() {
 
           <div className="font-poppins text-[14px] leading-[1.6] sm:text-[18px] md:text-[17px] lg:text-[18px] xl:text-[18px] text-white/90 space-y-3 sm:space-y-4 md:space-y-6 max-w-full text-center md:text-left mx-auto md:mx-0 pb-4 sm:pb-10 md:pb-12 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
             <p>
-              International Test Conference is the world's premier venue dedicated to the electronic test of devices, boards and systems-covering the complete cycle from design verification, design-for-test, design-for-manufacturing, silicon debug, manufacturing test, system test, diagnosis, reliability and failure analysis, and back to process and design improvement.
+              International Test Conference is the world's premier venue
+              dedicated to the electronic test of devices, boards and
+              systems-covering the complete cycle from design verification,
+              design-for-test, design-for-manufacturing, silicon debug,
+              manufacturing test, system test, diagnosis, reliability and
+              failure analysis, and back to process and design improvement.
             </p>
             <p>
-              At ITC India, design, test, and yield professionals can confront challenges faced by the industry, and learn how these challenges are being addressed by the combined efforts of academia, design tool and equipment suppliers, designers, and test engineers.
+              At ITC India, design, test, and yield professionals can confront
+              challenges faced by the industry, and learn how these challenges
+              are being addressed by the combined efforts of academia, design
+              tool and equipment suppliers, designers, and test engineers.
             </p>
           </div>
         </div>
 
         <div className="flex-1 relative hidden md:block">
-
           {/* Carousel Image - Made smaller - Hidden on mobile */}
           <div className="relative w-full max-w-[500px] h-[300px] md:h-[350px] lg:h-[400px] xl:h-[400px] rounded-lg overflow-hidden border border-white/0 ml-4 md:ml-6 xl:ml-12 mt-8 md:mt-12 xl:mt-[78px] mx-auto xl:mx-0">
             <Image
