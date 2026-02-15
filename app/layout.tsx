@@ -11,6 +11,7 @@ import {
 import "./globals.css";
 import Footer from "@/components/ui/Footer";
 import Navbar from "@/components/ui/Navbar";
+import { AuthProvider } from "@/lib/AuthContext";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -115,9 +116,11 @@ export default function RootLayout({
           ></div>
         </div>
 
-        <Navbar />
-        {children}
-        <Footer />
+        <AuthProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </AuthProvider>
       </body>
     </html>
   );

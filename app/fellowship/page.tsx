@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function FellowshipPage() {
   return (
@@ -37,9 +38,11 @@ export default function FellowshipPage() {
             AN INITIATIVE TOWARDS INDIA’S SEMICONDUCTOR ECOSYSTEM
           </h2>
 
-          <button className="bg-[#03396c] hover:bg-[#1a4b7c] text-white text-xl md:text-2xl font-bold py-4 px-12 border border-white/50 shadow-[0_0_15px_rgba(255,255,255,0.1)] transition-all duration-300 uppercase tracking-wider backdrop-blur-sm">
-            REGISTER NOW
-          </button>
+          <Link href="/fellowship/register">
+            <button className="bg-[#03396c] hover:bg-[#1a4b7c] text-white text-xl md:text-2xl font-bold py-4 px-12 border border-white/50 shadow-[0_0_15px_rgba(255,255,255,0.1)] transition-all duration-300 uppercase tracking-wider backdrop-blur-sm">
+              REGISTER NOW
+            </button>
+          </Link>
         </div>
 
         {/* Decorative Lines Section */}
