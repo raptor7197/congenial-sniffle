@@ -32,7 +32,7 @@ export default function Hero() {
 
             {/* Subtitle */}
             <h3 className="hero-subtitle font-space-grotesk font-bold text-[16px] leading-[1.2] sm:text-[20px] md:text-[22px] lg:text-[23px] xl:text-[24px] mt-1 sm:mt-4 md:mt-4 xl:mt-5 max-w-[600px] leading-normal uppercase">
-              AN INITIATIVE TOWARDS INDIA'S
+              AN INITIATIVE TOWARDS INDIA&apos;S
               <br className="hidden sm:block" />
               <span className="sm:hidden"> </span>SEMICONDUCTOR ECOSYSTEM
             </h3>

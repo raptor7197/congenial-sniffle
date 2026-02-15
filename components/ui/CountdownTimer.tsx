@@ -47,7 +47,7 @@ export default function CountdownTimer() {
   }, []);
 
   return (
-    <div className="relative w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] xl:w-[600px] h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] xl:h-[200px] flex items-center justify-center font-sarpanch text-white z-30 px-4 sm:px-6 md:px-8">
+    <div className="relative w-[300px] sm:w-[360px] md:w-[440px] lg:w-[520px] xl:w-[600px] h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] xl:h-[200px] flex items-center justify-center font-sarpanch text-white z-30 px-4 sm:px-6 md:px-8">
       {/* Background Banner with angled ends */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -60,8 +60,8 @@ export default function CountdownTimer() {
       </div>
 
       {/* Timer Content */}
-      <div className="relative z-10 flex items-center justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-6 xl:gap-8 pb-2 pr-1 sm:pr-2 md:pr-4 xl:pr-8">
-        <div className="flex flex-col items-center min-w-[50px] sm:min-w-[60px] md:min-w-[70px]">
+      <div className="relative z-10 flex items-center justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-6 xl:gap-10 pb-2 pr-1 sm:pr-2 md:pr-4 xl:pr-">
+        <div className="flex flex-col items-center min-w-[50px] sm:min-w-[60px] md:min-w-[80px]">
           <span className="text-[24px] leading-[1] sm:text-[28px] md:text-[36px] lg:text-[42px] xl:text-[48px] font-bold">
             {timeLeft.days}
           </span>

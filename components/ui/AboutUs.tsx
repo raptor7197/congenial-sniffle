@@ -14,7 +14,7 @@ export default function AboutUs() {
         />
       </div>
 
-      <div className="absolute top-[35px] sm:top-[50px] md:top-[60px] lg:top-[70px] xl:top-[80px] right-[15%] sm:right-[15%] md:right-[20%] lg:right-[35%] xl:right-[30%] z-20">
+      <div className="absolute top-[35px] sm:top-[50px] md:top-[60px] lg:top-[70px] xl:top-[80px] right-[5%] sm:right-[10%] md:right-[10%] lg:right-[10%] xl:right-[20%] z-20">
         <CountdownTimer />
       </div>
 
@@ -47,7 +47,7 @@ export default function AboutUs() {
 
           <div className="font-poppins text-[14px] leading-[1.6] sm:text-[18px] md:text-[17px] lg:text-[18px] xl:text-[18px] text-white/90 space-y-3 sm:space-y-4 md:space-y-6 max-w-full text-center md:text-left mx-auto md:mx-0 pb-4 sm:pb-10 md:pb-12 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
             <p>
-              International Test Conference is the world's premier venue
+              International Test Conference is the world&apos;s premier venue
               dedicated to the electronic test of devices, boards and
               systems-covering the complete cycle from design verification,
               design-for-test, design-for-manufacturing, silicon debug,
